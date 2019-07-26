@@ -1,6 +1,6 @@
 // Exercise 2.2.2
 
-#define x=2
+#define x=7
 module tape;
 module residential {
 	implicit_enduses NONE;
