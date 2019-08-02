@@ -4,16 +4,16 @@ jobs:
       docker: 
         -image: gridlabd/slac-master 
       steps: 
-      -checkout
-      -run:
-        name: Run verison check 
-        command: |  #OR, expect multiple lines of commands
-          gridlabd --verison 
-          gridlabd --origin
-      -run: 
-        name: Run the simulation
-        command: |
-          gridlabd test.glm
-          echo "Model finished"
+        -checkout
+        -run:
+          name: Run verison check 
+          command: |  #OR, expect multiple lines of commands
+            gridlabd --verison 
+            gridlabd --origin
+        -run: 
+          name: Run the simulation
+          command: |
+            gridlabd test.glm
+            echo "Model finished"
 
 
