@@ -1,0 +1,9 @@
+class test {
+    int64 x;
+    int64 y;
+}
+
+object test {
+    x 5;
+    y 10;
+}
